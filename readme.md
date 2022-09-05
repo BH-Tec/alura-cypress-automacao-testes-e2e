@@ -34,5 +34,8 @@ Repositorio criado para o curso de "Cypress: Automação de testes E2E" da Alura
 - Utilizar a função ``` forEach ``` para iterar sobre uma coleção de elementos e não precisar replicar código
 - Fazer testes em API’s REST, verificando o status e corpo da resposta, bem como outros comportamentos
 - Usar o comando ``` cy.request() ``` e usar o ``` .expect ``` para fazer as asserções dos resultados esperados
+- Organizar os testes separando-os por funcionalidades afins, para melhorar a manutenção e legibilidade do código
+- Qual o conceito dos flaky tests e algumas maneira de evitá-los, como por exemplo:evitar eventos orientados a tempo, dependência de aplicações de terceiros, testes que podem ser quebrados por processamento concorrente
+- Boas práticas na escrita dos testes para melhorar performance e segurança
 
 ---

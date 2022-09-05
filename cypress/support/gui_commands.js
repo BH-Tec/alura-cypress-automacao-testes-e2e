@@ -1,10 +1,10 @@
 Cypress.Commands.add('login', (nome, senha) => {
     cy.get('input[formcontrolname="userName"]').type(nome);
-    cy.get('input[formcontrolname="password"]').type(senha);
+    cy.get('input[formcontrolname="password"]').type(senha, {log: false});
     cy.get('button[type="submit"]').click();
 })
 
-Cypress.Commands.add('login', (email, fullName, userName, password) => {
+Cypress.Commands.add('cadastro', (email, fullName, userName, password) => {
     cy.contains('a', 'Register now').click();
     cy.contains('button', 'Register').click();
     
