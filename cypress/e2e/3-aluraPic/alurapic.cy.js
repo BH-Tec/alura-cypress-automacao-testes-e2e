@@ -50,11 +50,25 @@ describe('Login e registro de usuarios alura pic', () => {
         });
     })
 
-    it.only('registrar um novo usuário valido', () => {
+    it('registrar um novo usuário valido', () => {
         cy.login('bruno@teste.com', 'Bruno Teste', 'brunooooooooohfd', 'password')
         cy.on('window:alert', (str) => {
             expect(str).to.equal('User available')
         });
+    })
+
+    const usuarios = require('../../fixtures/usuarios.json')
+    usuarios.forEach(usuario => {
+        it.only(`registra um novo usuário ${usuario.userName} `, () => {
+            cy.contains('a', 'Register now').click();
+            cy.contains('button', 'Register').click();
+            
+            cy.get('input[formcontrolname="email"]').type(usuario.email);
+            cy.get('input[formcontrolname="fullName"]').type(usuario.fullName);
+            cy.get('input[formcontrolname="userName"]').type(usuario.userName);
+            cy.get('input[formcontrolname="password"]').type(usuario.password);
+            cy.contains('button', 'Register').click();
+        })
     })
 
 })

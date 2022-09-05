@@ -29,5 +29,10 @@ Repositorio criado para o curso de "Cypress: Automação de testes E2E" da Alura
 - Usar o pacote Mochawesome para personalizar a geração do relatório e ter a possibilidade de gerá-los como arquivos html, visualizando-os no browser
 - Utilizar o Dashboard para integrar os resultados dos testes e ter uma visão mais analítica e completa dos dados
 - Criar novos comandos personalizados, de acordo com a necessidade e referenciá-los como se fossem comando nativos do Cypress, como por exemplo: ``` cy.login() ```, ``` cy.registrar() ``` ou da forma que considerar melhor
+- Utilizar dados de um arquivo externo nos casos de teste, fornecendo uma massa de dados
+- Utilizar a função require para obter dados de um módulo ou arquivo externo
+- Utilizar a função ``` forEach ``` para iterar sobre uma coleção de elementos e não precisar replicar código
+- Fazer testes em API’s REST, verificando o status e corpo da resposta, bem como outros comportamentos
+- Usar o comando ``` cy.request() ``` e usar o ``` .expect ``` para fazer as asserções dos resultados esperados
 
 ---
