@@ -1,0 +1,14 @@
+{
+  "name": "alura-cypress-automacao-testes-e2e",
+  "version": "1.0.0",
+  "description": "Projeto para o curso da Alura `Cypress: Automação de testes E2E`",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Bruno Henrique",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.7.0"
+  }
+}
