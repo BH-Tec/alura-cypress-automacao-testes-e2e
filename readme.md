@@ -3,18 +3,19 @@
 </h1>
 
 <p align="center">
-  <a href="#-projeto">Projeto</a>
+  <a href="#-projeto">🖥️ Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">🚀 Tecnologias</a>
 </p>
 
 <p align="center">
-<a href="https://wakatime.com/badge/user/68660678-6b86-4b78-98df-f5f41a37e1bc/project/3ff831a1-43e6-4cc9-8ac1-c4d67f8dc46c"><img src="https://wakatime.com/badge/user/68660678-6b86-4b78-98df-f5f41a37e1bc/project/3ff831a1-43e6-4cc9-8ac1-c4d67f8dc46c.svg" alt="wakatime"></a>
+  <a href="https://wakatime.com/badge/user/68660678-6b86-4b78-98df-f5f41a37e1bc/project/3ff831a1-43e6-4cc9-8ac1-c4d67f8dc46c"><img src="https://wakatime.com/badge/user/68660678-6b86-4b78-98df-f5f41a37e1bc/project/3ff831a1-43e6-4cc9-8ac1-c4d67f8dc46c.svg" alt="wakatime"></a>
 </p>
 
 ## 💻 Projeto
 
 Repositorio criado para o curso de "Cypress: Automação de testes E2E" da Alura.
 
-## 📚 Tópicos abordados
+## 🚀 Tecnologias
 
 - Como iniciar um projeto utilizando NodeJS
 - Como criar um novo arquivo de teste com a extensão cy.js
